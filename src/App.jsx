@@ -1,7 +1,7 @@
 import { useState } from "react";
 import About from "./components/About"
 import MainPage from "./components/MainPage"
-import Navbar from "./components/navbar"
+import Navbar from "./components/Navbar"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects";
 import Training from "./components/Training";

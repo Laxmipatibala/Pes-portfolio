@@ -4,19 +4,19 @@ function Education() {
             degree: "Bachelor of Technology: Computer Science and Engineering",
             school: "Lovely Professional University",
             year: "2023 - 2027",
-            details: "Specialized in Advanced Web Engineering. Delivered multiple high-performance projects and actively led tech clubs."
+            details: "Specialized in Advanced Web Engineering. Delivered multiple high-performance projects and actively led tech clubs. CGPA: 7.53"
         },
         {
             degree: "Intermediate",
             school: "K.P.S College, Patna",
             year: "2021 - 2023",
-            details: "Completed 11th and 12th"
+            details: "Completed 11th and 12th with 67%"
         },
         {
             degree: "Matriculation",
             school: "St. Mary's School Masaurhi, Patna",
             year: "2009 - 2021",
-            details: "Completed 10th"
+            details: "Completed 10th with 75%"
         }
     ];
 

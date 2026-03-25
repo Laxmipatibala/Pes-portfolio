@@ -25,7 +25,6 @@ function MainPage() {
         <div className="flex-1 flex flex-col justify-center relative z-10 text-center lg:text-left mt-8 lg:mt-0">
           
           <h1 className="text-5xl lg:text-7xl xl:text-8xl font-extrabold text-[#111827] tracking-tight leading-[1.1] mb-6">
-            Hello! I'm <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 block my-2">
               Laxmi Pati Bala
             </span>

@@ -20,7 +20,7 @@ function Navbar() {
                 {/* Nav Links Section (Hidden on very small screens, scrollable or wrapped) */}
                 <div className="hidden md:block">
                     <div className="flex justify-between items-center space-x-2 lg:space-x-5">
-                        {["about", "skills", "projects", "training", "certificates","achievements","education", "footer"].map((item) => (
+                        {["about", "skills", "projects", "training", "certificates","achievements","cv","education", "footer"].map((item) => (
                             <button 
                                 key={item}
                                 onClick={() => scrollToSection(item)} 

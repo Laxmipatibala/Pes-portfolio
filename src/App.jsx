@@ -8,6 +8,7 @@ import Training from "./components/Training";
 import Certificates from "./components/Certificates";
 import Achievements from "./components/Achievements";
 import Education from "./components/Education";
+import CVDownload from "./components/CVDownload";
 import Footer from "./components/Footer";
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
         <Certificates />
         <Achievements />
         <Education />
+        <CVDownload />
         <Footer />
       </div>
     </div>

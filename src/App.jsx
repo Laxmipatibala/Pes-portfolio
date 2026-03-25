@@ -14,7 +14,7 @@ function App() {
   const [pos, setPos] = useState({ x: 0, y: 0 });
 
   return (
-    <div 
+    <div
       className="m-0 p-0 font-sans text-slate-800 bg-[#f4f7f6] min-h-screen selection:bg-blue-200 relative overflow-x-hidden"
       onMouseMove={(e) => {
         const { clientX, clientY } = e;
@@ -55,15 +55,15 @@ function App() {
 
       <div className="relative z-10">
         <Navbar />
-        <MainPage/>
+        <MainPage />
         <About />
-        <Skills/>
-        <Projects/>
-        <Training/>
-        <Certificates/>
-        {/* <Achievements/> */}
-        <Education/>
-        <Footer/>
+        <Skills />
+        <Projects />
+        <Training />
+        <Certificates />
+        <Achievements />
+        <Education />
+        <Footer />
       </div>
     </div>
   )

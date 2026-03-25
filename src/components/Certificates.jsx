@@ -6,42 +6,42 @@ function Certificates() {
     const certii=[
         {
             id: 1, 
-            img: "src/components/Certificates/1.png", 
+            img: "/certificates/1.png", 
             alt: "project1",
             title: "React Specialist",
             description: "Advanced concepts in React, Context API, Hooks, and modern state management techniques."
         },
         { 
             id: 2, 
-            img: "src/components/Certificates/2.png", 
+            img: "/certificates/2.png", 
             alt: "project2",
             title: "Backend Master",
             description: "Building scalable and secure RESTful APIs using Node.js and Express."
         },
         { 
             id: 3, 
-            img: "src/components/Certificates/3.png", 
+            img: "/certificates/3.png", 
             alt: "project3",
             title: "Database Admin",
             description: "Deep dive into MongoDB aggregations, schema design, and performance tuning."
         },
         { 
             id: 4, 
-            img: "src/components/Certificates/4.png", 
+            img: "/certificates/4.png", 
             alt: "project4",
             title: "Laravel Essentials",
             description: "Mastering MVC architecture, Eloquent ORM, and rapid application development with Laravel."
         },
         {
             id: 5, 
-            img: "src/components/Certificates/5.png", 
+            img: "/certificates/5.png", 
             alt: "project5",
             title: "Cloud Deployment",
             description: "Deploying full-stack applications on modern cloud infrastructure."
         },
         {
             id: 6, 
-            img: "src/components/Certificates/6.png", 
+            img: "/certificates/6.png", 
             alt: "project6",
             title: "System Design",
             description: "Designing reliable, scalable, and maintainable systems for production scale."

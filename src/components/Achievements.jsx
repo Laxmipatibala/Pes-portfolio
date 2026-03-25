@@ -1,20 +1,11 @@
 function Achievements() {
     const achievements = [
         {
-            title: "Top 1% in Tech Challenge",
-            date: "Nov 2024",
-            description: "Ranked among the top 1% globally in an advanced Data Structures and Algorithms hackathon out of 10,000+ engineers."
-        },
-        {
-            title: "Open Source Contributor",
-            date: "Jul 2024",
-            description: "Successfully merged multiple critical pull requests into leading open-source React UI libraries used by thousands."
-        },
-        {
-            title: "Best UI/UX Award",
-            date: "Jan 2025",
-            description: "Awarded 'Best Design and User Experience' for developing a sleek, highly performant portfolio generation platform."
+            title: "Top 200 in CodeChef Division 2",
+            date: "Contest Achievement",
+            description: "Secured top 200 rank all over India in CodeChef Division 2 contest, demonstrating strong problem-solving and algorithmic skills."
         }
+       
     ];
 
     return (

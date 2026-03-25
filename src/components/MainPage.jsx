@@ -1,5 +1,4 @@
 import { useState } from "react";
-import formalImg from "./Photos/formal.jpeg";
 
 function MainPage() {
   const [pos, setPos] = useState({ x: 0, y: 0 });
@@ -71,7 +70,7 @@ function MainPage() {
             <div className="w-full h-full rounded-full overflow-hidden relative border border-white/30 shadow-inner bg-slate-100">
                <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/10 via-transparent to-blue-400/10 pointer-events-none z-20 mix-blend-overlay"></div>
                <img 
-                 src={formalImg} 
+                 src="/formal.jpeg" 
                  alt="Laxmi Pati Bala" 
                  className="w-full h-full object-cover object-top group-hover/card:scale-110 group-hover/card:rotate-3 transition-all duration-700 ease-out" 
                  onError={(e) => { e.target.src = "https://placehold.co/800x800/e2e8f0/475569?text=Profile+Photo"; }}

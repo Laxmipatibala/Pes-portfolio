@@ -2,7 +2,7 @@ function Projects() {
     const projectCards = [
         { 
             id: 1, 
-            img: "src/components/Photos/img1.png", 
+            img: "/img1.png", 
             alt: "project1",
             title: "Project Alpha",
             description: "A cutting-edge web application built with React and Tailwind CSS. It solves complex problems by providing an intuitive user interface, real-time data updates, and seamless integration with external APIs for a flawless experience.",
@@ -11,7 +11,7 @@ function Projects() {
         },
         { 
             id: 2, 
-            img: "src/components/Photos/img2.png", 
+            img: "/img2.png", 
             alt: "project2",
             title: "Project Beta",
             description: "An elegant solution for modern businesses, featuring dynamic dashboards and responsive design. This project focuses on performance optimization, maintaining 60fps animations while processing large datasets in the browser.",
@@ -21,7 +21,7 @@ function Projects() {
         // },
         // { 
         //     id: 3, 
-        //     img: "src/components/Photos/img1.png", 
+        //     img: "/img1.png", 
         //     alt: "project3",
         //     title: "Project Gamma",
         //     description: "A fully decentralized application leveraging blockchain technology. It ensures secure transactions, robust smart contract integration, and a transparent user history, all wrapped in a beautiful, glassy user interface.",
@@ -30,7 +30,7 @@ function Projects() {
         // },
         // { 
         //     id: 4, 
-        //     img: "src/components/Photos/img2.png", 
+        //     img: "/img2.png", 
         //     alt: "project4",
         //     title: "Project Delta",
         //     description: "An AI-powered analytics tool that predicts market trends. With its robust backend infrastructure and sophisticated machine learning models, it delivers pinpoint accuracy and actionable insights to users in real time.",
